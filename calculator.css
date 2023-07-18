@@ -1,0 +1,42 @@
+.container{
+    
+    margin-top: 150px;
+    margin-left: 500px;
+    height: 305x;
+    width: 288px;
+    border: 2px solid black;
+
+}
+#display{
+    height:77px;
+    width: 280px;
+    background-color: black;
+    color: white;
+    text-align: end;
+    font-size: 35px;
+    box-shadow: 1px 1px grey;
+}
+.grid-box{
+    display: grid;
+    
+}
+.line1{
+    margin-top: 8.5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   
+}
+.line{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+button{
+    background-color: wheat;
+    color: palevioletred;
+   
+    font-size: 25px;
+}
+
+.line2{
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+  
